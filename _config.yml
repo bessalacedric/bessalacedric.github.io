@@ -23,13 +23,13 @@ repository               : "academicpages/academicpages.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Your Sidebar Name"
-  pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
+  name             : "André Cédric Bessala, Ph.D. Researcher"
+  pronouns         :  # example: "she/her"  
+  bio              : "I am a Ph.D. candidate at Toulouse INP, at the IRIT laboratory. My research focuses on advanced topics in telecommunications, particularly in the realms of NextG Mobile Systems (5G&B5G). I specialize in Open Radio Access Networks (O-RAN) Slicing, exploring innovative solutions to enhance network efficiency and flexibility. With a strong emphasis on Intent-based Networking, I leverage machine learning (ML) tools to address complex challenges in network management. My particular interest lies in the application of Reinforcement Learning (RL) techniques to navigate highly dynamic environments where data availability is inconsistent. This approach enables me to develop adaptive strategies that enhance network performance and reliability. Apart from that, I'm Cameroonian, it's also my fulltime work :)!"
+  location         : "Toulouse/France"
+  employer         : "Toulouse INP/IRIT-CNRS"
   uri              : # URL
-  email            : "none@example.org" 
+  email            : "andrecedric.bessala@toulouse-inp.fr, bessalacedric234@gmail.com" 
 
   # Academic websites
   academia         : # URL
@@ -37,7 +37,7 @@ author:
   googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
   inspire-hep      : # URL
   impactstory      : # URL
-  orcid            : "http://orcid.org/yourorcidurl"
+  orcid            : "https://orcid.org/0009-0000-8881-6052"
   semantic         : # URL
   pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   researchgate     : # URL
@@ -62,7 +62,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : # Username
+  linkedin         : "André Cédric Bessala" # Username
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
@@ -80,8 +80,7 @@ author:
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
-  books:
-    title: 'Books'
+  
   manuscripts:
     title: 'Journal Articles'    
   conferences:
