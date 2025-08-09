@@ -1,4 +1,4 @@
-pub_date	title	venue	url_slug	paper_url	slides_url
+pub_date	title	venue	excert url_slug	paper_url	slides_url
 
 2025-05-26	E-MATRO: An Adaptive and Energy-Efficient Framework for Slicing within the O-RAN Architecture.	IFIP Networking 2025. 	http://academicpages.github.io/files/E-MATRO_ifip_2025.pdf	
 
