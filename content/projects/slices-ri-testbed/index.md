@@ -1,9 +1,6 @@
 ---
 title: SLICES-RI testbed experimentation
 date: 2024-06-01
-links:
-  - type: site
-    url: "https://slices-ri.eu"
 tags:
   - 5G
   - Testbed
@@ -21,3 +18,5 @@ UEs) run in Docker across the deployment. The GTP-U dataplane uses `tc flower`
 and `pedit` rules for per-UE traffic steering, providing a realistic traffic
 environment for training and evaluating the BRAVE-O framework under real 5G
 protocol conditions.
+
+More info: [slices-ri.eu](https://slices-ri.eu)
