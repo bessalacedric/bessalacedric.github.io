@@ -15,13 +15,13 @@ role: PhD Researcher in Computer Networks
 bio: |
   I am a Ph.D. candidate at Toulouse INP/University of Toulouse and a member of the IRIT laboratory. My research interests span decision theory, optimization, and intelligent network management, with a focus on developing rigorous mathematical models to address real-world challenges.
 
-My doctoral research focuses on adaptive, data-driven orchestration for energy-efficient 5G Open Radio Access Networks (O-RAN). Through this work, I investigate innovative approaches to improve network efficiency, flexibility, and sustainability in highly dynamic environments.
+  My doctoral research focuses on adaptive, data-driven orchestration for energy-efficient 5G Open Radio Access Networks (O-RAN). Through this work, I investigate innovative approaches to improve network efficiency, flexibility, and sustainability in highly dynamic environments.
 
-A key aspect of my research is Intent-Based Networking, where I leverage machine learning techniques to automate and optimize network management. In particular, I am interested in Reinforcement Learning (RL) methods for decision-making under uncertainty, enabling adaptive strategies that maintain network performance and reliability despite fluctuating traffic demands and limited data availability.
+  A key aspect of my research is Intent-Based Networking, where I leverage machine learning techniques to automate and optimize network management. In particular, I am interested in Reinforcement Learning (RL) methods for decision-making under uncertainty, enabling adaptive strategies that maintain network performance and reliability despite fluctuating traffic demands and limited data availability.
 
-Alongside my research, I am actively involved in teaching and mentoring students through laboratory sessions and practical courses. I teach topics including MAC and Ultra-Wideband (UWB) protocols, Quality of Service (QoS) and Internet technologies, Programmable Networks, and Android application development. These teaching experiences allow me to share my passion for networking and computing while helping students bridge the gap between theory and practice.
+  Alongside my research, I am actively involved in teaching and mentoring students through laboratory sessions and practical courses. I teach topics including MAC and Ultra-Wideband (UWB) protocols, Quality of Service (QoS) and Internet technologies, Programmable Networks, and Android application development. These teaching experiences allow me to share my passion for networking and computing while helping students bridge the gap between theory and practice.
 
-Beyond my research and teaching activities, I am proud to be Cameroonian—a role that feels like a full-time job in itself. This background continues to shape my perspective, resilience, and passion for tackling complex problems with creativity and determination.
+Beyond my research and teaching activities, I am proud to be Cameroonian—a role that feels like a full-time job in itself. This background continues to shape my perspective, resilience, and passion for tackling complex problems with creativity and determination. 
 
 affiliations:
   - name: "[University of Toulouse / IRIT-N7]"  # EDIT
