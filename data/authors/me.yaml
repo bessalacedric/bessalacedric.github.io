@@ -1,0 +1,106 @@
+schema: hugoblox/author/v1
+slug: me
+is_owner: true
+name:
+  display: André Cédric Bessala  # EDIT: confirm spelling of your full name
+  given: Cédric
+  family: Bessala
+  alternate: ''
+  pronunciation: ''
+  pronouns: ''
+postnominals: []
+status:
+  icon: "📡"
+role: PhD Researcher in Computer Networks
+bio: |
+  I am a Ph.D. candidate at Toulouse INP/University of Toulouse and a member of the IRIT laboratory. My research interests span decision theory, optimization, and intelligent network management, with a focus on developing rigorous mathematical models to address real-world challenges.
+
+My doctoral research focuses on adaptive, data-driven orchestration for energy-efficient 5G Open Radio Access Networks (O-RAN). Through this work, I investigate innovative approaches to improve network efficiency, flexibility, and sustainability in highly dynamic environments.
+
+A key aspect of my research is Intent-Based Networking, where I leverage machine learning techniques to automate and optimize network management. In particular, I am interested in Reinforcement Learning (RL) methods for decision-making under uncertainty, enabling adaptive strategies that maintain network performance and reliability despite fluctuating traffic demands and limited data availability.
+
+Alongside my research, I am actively involved in teaching and mentoring students through laboratory sessions and practical courses. I teach topics including MAC and Ultra-Wideband (UWB) protocols, Quality of Service (QoS) and Internet technologies, Programmable Networks, and Android application development. These teaching experiences allow me to share my passion for networking and computing while helping students bridge the gap between theory and practice.
+
+Beyond my research and teaching activities, I am proud to be Cameroonian—a role that feels like a full-time job in itself. This background continues to shape my perspective, resilience, and passion for tackling complex problems with creativity and determination.
+
+affiliations:
+  - name: "[University of Toulouse / IRIT-N7]"  # EDIT
+    url: "https://your-institution.fr"  # EDIT
+
+links:
+  - icon: at-symbol
+    url: "mailto:andrecedric.bessala@toulouse-inp.fr"  # EDIT
+    label: E-mail me
+  - icon: brands/github
+    url: https://github.com/bessalacedric
+  - icon: brands/linkedin
+    url: "https://www.linkedin.com/in/andre-cedric-bessala-a302031b4/"  # EDIT
+  - icon: academicons/google-scholar
+    url: "https://scholar.google.com/citations?user=YOURID"  # EDIT
+  - icon: academicons/orcid
+    url: "https://orcid.org/0009-0000-8881-6052"  # EDIT
+
+interests:
+  My research lies at the intersection of network optimization, artificial intelligence, and next-generation mobile networks. Key areas of interest include:
+
+   - O-RAN, Open 5G/6G, and Cloud-Native Network Architectures
+   - Operational Research for Communication Networks
+   - Mathematical Modeling and Optimization of Networked Systems
+   - Online and Multi-Agent Reinforcement Learning for Autonomous Network Management
+   - Intent-Based Networking and AI-Driven Automation
+   - Sustainable and Green Networking
+   - Large-Scale Experimental Validation using Advanced Research Infrastructures (e.g., SLICES-RI, Colosseum)
+   - Network Emulation, Digital Twins, and Real-World Testbed Deployment
+
+
+education:
+  - degree: "PhD in Computer Science and Telecommunications"  # EDIT
+    institution: "[University of Toulouse]"  # EDIT
+    start: 2023-09-01  # EDIT
+    end: '2026-12-23'
+    summary: |
+      I investigate energy-efficient joint resource allocation in 5G O-RAN systems, where the heterogeneity of radio and compute resources calls for a distributed, adaptive learning approach rather than static optimisation.
+  - degree: "MSc in Computer Science"  # EDIT
+    institution: "[University of Yaoundé I]"  # EDIT
+    start: 2021-09-01  # EDIT
+    end: 2023-06-30  # EDIT
+
+experience:
+  - role: PhD Researcher
+    org: "[University of Toulouse/ IRIT]"  # EDIT
+    start: 2023-09-01  # EDIT
+    summary: |
+      
+  - role: Teaching Assistant
+    org: "[Toulouse INP-N7]"  # EDIT
+    start: 2023-09-01  # EDIT
+    summary: |
+      - MAC Protocols and Ultra-Wideband (UWB) Wireless Communications
+      - Quality of Service (QoS) and Internet Technologies
+      - Learning-Based Network Systems
+      - Programmable Networks and Network Virtualization
+      - Network Security (iptables, NAT, DHCP)
+      - Infrastructure of Cloud Computing and Big Data Infrastructure
+      - Android Application Development (IoT and wearables)
+
+skills:
+  - name: Research & Engineering
+    items:
+      - label: Python (PyTorch, RL)
+        level: 5
+      - label: Network protocols (5G/O-RAN)
+        level: 5
+      - label: Optimization (Pyomo / ILP)
+        level: 4
+      - label: Linux & Docker infrastructure
+        level: 4
+  - name: Communication
+    items:
+      - label: Academic writing
+        level: 4
+      - label: Conference presentations
+        level: 4
+
+languages: [ { name: French, level: 5, label: Fluent }, { name: English, level: 5, label: Fluent } ]  # EDIT: add if you'd like, e.g. { name: French, level: 5, label: Native }
+
+awards: []  # EDIT: add any awards/honors here
