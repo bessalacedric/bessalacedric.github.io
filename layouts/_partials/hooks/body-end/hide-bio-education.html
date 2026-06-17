@@ -1,0 +1,13 @@
+<script>
+  if (window.location.pathname === '/' || window.location.pathname === '/index.html') {
+    var bio = document.querySelector('.resume-biography');
+    if (bio) {
+      bio.querySelectorAll('h3').forEach(function (h) {
+        if (h.textContent.trim() === 'Education') {
+          var section = h.closest('.mb-16');
+          if (section) section.style.display = 'none';
+        }
+      });
+    }
+  }
+</script>

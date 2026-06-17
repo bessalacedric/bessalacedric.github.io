@@ -21,25 +21,10 @@ sections:
         gradient_mesh:
           enable: true
       name:
-        size: md
+        size: xs
       avatar:
         size: medium
         shape: circle
-  - block: markdown
-    content:
-      title: '📡 My research'
-      subtitle: ''
-      text: |-
-        I focus on energy-efficient resource management in disaggregated 5G O-RAN
-        systems. My main contribution, BRAVE-O, is a Multi-Agent Deep Reinforcement
-        Learning framework that jointly optimizes PRB blanking and VNF placement to
-        reduce the energy footprint of next-generation RAN deployments, validated on
-        the SLICES-RI European testbed.
-
-        Always happy to connect with fellow researchers working on O-RAN, network
-        optimization, or reinforcement learning 😃
-    design:
-      columns: '1'
   - block: collection
     id: papers
     content:
