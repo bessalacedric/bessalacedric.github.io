@@ -2,7 +2,7 @@
 title: 'Your Report Title Here'
 authors:
   - me
-date: 'YYYY-MM-DD'
+date: '2025-09-15'
 publication_types: ['report']
 publication:
   name: "Where this report was submitted/published"
