@@ -9,7 +9,6 @@ publication:
   short_name: "EAPO-NET: Adaptive Energy-Aware Profit Optimization in Next-Generation RANs"
 summary: >
   This report serve as a support for the EAPO-Net submission at MsWiM 2026.
-
 featured: false
 ---
 
