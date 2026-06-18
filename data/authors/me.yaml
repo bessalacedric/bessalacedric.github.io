@@ -60,7 +60,9 @@ education:
   - degree: "MSc in Computer Science"  # EDIT
     institution: "[University of Yaoundé I]"  # EDIT
     start: 2021-09-01  # EDIT
-    end: 2023-06-30  # EDIT
+    end: '2023-06-30'  # EDIT
+    summary: | 
+      Enhancing Real-Time Traffic Forecasting in Software-Defined Networking (SDN) Environments through Machine Learning Techniques. I focused on developing advanced real-time traffic forecasting models tailored for software-defined networking (SDN) environments. Our approach leverages state-of-the-art machine learning techniques, utilizing classification algorithms such as XGBoost, CatBoost, and Random Forest to improve accuracy and efficiency in traffic prediction.
 
 experience:
   - role: PhD Researcher
