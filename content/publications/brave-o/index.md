@@ -5,14 +5,13 @@ authors:
   - me
   - "[Co-author Name]"
 
-date: '2025-06-01'  # EDIT once accepted/published
-publishDate: '2025-06-01'  # EDIT
+date: '2025-06-01'
+publishDate: '2025-06-01'
 
-# CSL publication type — common options: paper-conference, article-journal, manuscript (for preprints)
-publication_types: ['paper-conference']  # EDIT if this becomes a journal article instead
+publication_types: ['paper-conference']
 
 publication:
-  name: "[IEEE Conference Name] 2025"  # EDIT once the venue is confirmed
+  name: "[IEEE Conference Name] 2025"
   short_name: "[CONF]"
 
 peer_reviewed: true
@@ -43,17 +42,9 @@ tags:
   - SLICES-RI
 
 featured: true
-
-links:
-  - type: pdf
-    url: ""
-  - type: code
-    url: "https://github.com/bessalacedric/brave-o"  # EDIT if your repo name differs
-
-projects:
-  - brave-o
-
 slides: ""
 ---
 
 Add the full text, supplementary notes, or extended abstract here once the paper is finalized.
+
+Code: [github.com/bessalacedric/brave-o](https://github.com/bessalacedric/brave-o)
