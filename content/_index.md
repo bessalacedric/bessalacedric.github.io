@@ -13,9 +13,9 @@ sections:
         text: Download CV
         url: uploads/resume.pdf
       headings:
-        about: ''
+        about: 'Biography'
         education: ''
-        interests: ''
+        interests: 'Research'
     design:
       background:
         gradient_mesh:

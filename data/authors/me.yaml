@@ -12,7 +12,7 @@ postnominals: []
 status:
   icon: "📡"
 role: PhD Researcher in Computer Networks
-Biography: |
+bio: |
   I am a Ph.D. candidate at Toulouse INP/University of Toulouse and a member of the IRIT laboratory. My research interests span decision theory, optimization, and intelligent network management, with a focus on developing rigorous mathematical models to address real-world challenges.
 
   My doctoral research focuses on adaptive, data-driven orchestration for energy-efficient 5G Open Radio Access Networks (O-RAN). Through this work, I investigate innovative approaches to improve network efficiency, flexibility, and sustainability in highly dynamic environments.
@@ -40,7 +40,7 @@ links:
   - icon: academicons/orcid
     url: "https://orcid.org/0009-0000-8881-6052"  # EDIT
 
-Research:
+interests:
   - O-RAN, Open 5G/6G, and Cloud-Native Network Architectures
   - Operational Research for Communication Networks
   - Mathematical Modeling and Optimization of Networked Systems
