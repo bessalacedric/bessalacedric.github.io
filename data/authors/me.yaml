@@ -67,7 +67,7 @@ experience:
     org: "[University of Toulouse/ IRIT]"  # EDIT
     start: 2023-09-01  # EDIT
     summary: |
-      Developing BRAVE-O, a Multi-Agent Deep Q-Network framework for joint PRB blanking and VNF (DU/CU) placement in O-RAN O-Cloud deployments, validated on a 5-node SLICES-RI testbed running a full OpenAirInterface 5G stack.
+      My PhD research focuses on designing intelligent, energy-efficient orchestration mechanisms for O-RAN networks using Multi-Agent Deep Reinforcement Learning (MADRL). The objective is to jointly optimize radio unit activation, virtual network function placement and migration, traffic steering, and network slicing while satisfying QoS requirements. The ultimate goal is to minimize energy consumption and operational costs while maximizing network performance, scalability, and sustainability.
   - role: Teaching Assistant
     org: "[Toulouse INP-N7]"  # EDIT
     start: 2023-09-01  # EDIT
@@ -100,4 +100,4 @@ skills:
 
 languages: [ { name: French, level: 5, label: Fluent }, { name: English, level: 5, label: Fluent } ]  # EDIT: add if you'd like, e.g. { name: French, level: 5, label: Native }
 
-awards: []  # EDIT: add any awards/honors here
+#awards: []  # EDIT: add any awards/honors here
