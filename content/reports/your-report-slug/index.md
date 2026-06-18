@@ -5,14 +5,16 @@ authors:
 date: '2025-09-15'
 publication_types: ['report']
 publication:
-  name: "Where this report was submitted/published"
-  short_name: "Short name"
+  name: "This report describe the work EAPO-Net submitted at MsWiM Conference 2026"
+  short_name: "EAPO-NET: Adaptive Energy-Aware Profit Optimization in Next-Generation RANs"
 summary: >
-  One or two sentence summary of the report.
+  This report serve as a support for the EAPO-Net submission at MsWiM 2026.
 tags:
   - Tag1
   - Tag2
 featured: false
 ---
 
-[View report](report.pdf)
+[View report](EAPO_Net_report_MsWiM_2026.pdf)
+
+
