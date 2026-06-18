@@ -1,6 +1,9 @@
 ---
 title: BRAVE-O
 date: 2024-01-01
+links:
+  - type: site
+    url: "https://github.com/bessalacedric/brave-o"  # EDIT
 tags:
   - O-RAN
   - Deep Reinforcement Learning
@@ -18,5 +21,3 @@ across O-Cloud nodes, and agents are trained with Deep Q-Networks using soft
 Polyak target updates and gradient clipping for stability. Validated on a
 5-node SLICES-RI deployment running a full OpenAirInterface 5G stack, against
 an ILP-optimal (Pyomo/Branch-and-Cut) and a greedy baseline.
-
-Code: [github.com/bessalacedric/brave-o](https://github.com/bessalacedric/brave-o)
