@@ -25,15 +25,4 @@ sections:
       avatar:
         size: medium
         shape: circle
-  - block: collection
-    id: papers
-    content:
-      title: Featured publications
-      filters:
-        folders:
-          - publications
-        featured_only: true
-    design:
-      view: article-grid
-      columns: 2
 ---

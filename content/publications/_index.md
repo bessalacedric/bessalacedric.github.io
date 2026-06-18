@@ -1,12 +1,15 @@
 ---
-title: Publications
-cms_exclude: true
+title: 'Publications & Reports'
+date: 2024-01-01
+type: landing
 
-# View.
-view: citation
-
-# Optional header image (relative to `static/media/` folder).
-banner:
-  caption: ''
-  image: ''
+sections:
+  - block: collection
+    content:
+      title: Publications
+      filters:
+        folders:
+          - publications
+    design:
+      view: citation
 ---
