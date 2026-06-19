@@ -9,9 +9,9 @@ publication_types: ['report']
 summary: >
   This report describes the entire work of EAPO-Net submitted at MsWiM 2026 Conference.
 tags:
-  - 5G O-RAN
+  - O-RAN
   - Energy Efficiency
-  - MNO profit
+  - Network Slicing
 featured: false
 ---
 
