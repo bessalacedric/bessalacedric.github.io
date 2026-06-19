@@ -30,4 +30,4 @@ slides: ""
 
 ## Download
 
-[View report](EAPO_Net_TR.pdf)
+[View report](/uploads/EAPO_Net_TR.pdf)
