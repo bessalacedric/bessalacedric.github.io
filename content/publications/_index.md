@@ -10,22 +10,7 @@ sections:
       filters:
         folders:
           - publications
-    design:
-      view: citation
-  - block: collection
-    content:
-      title: Reports
-      filters:
-        folders:
-          - reports
-    design:
-      view: citation
-  - block: collection
-    content:
-      title: Posters
-      filters:
-        folders:
-          - posters
+        exclude_featured: false
     design:
       view: citation
 ---
