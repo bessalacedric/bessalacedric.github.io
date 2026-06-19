@@ -5,19 +5,28 @@ authors:
   - Guilherme Iecker Ricardo
   - Gentian Jakllari
 date: '2026-06-20'
-publication_types: ['report']
+publishDate: '2026-06-20'
+publication_types: ['paper-conference']
+publication:
+  name: "Extended Technical Report — submitted to MsWiM 2026"
+  short_name: "Technical Report 2026"
+peer_reviewed: false
+open_access: true
+license: ''
+abstract: >
+  This extended technical report describes the full work of EAPO-Net,
+  submitted at MsWiM 2026 Conference.
 summary: >
-  This report describes the entire work of EAPO-Net submitted at MsWiM 2026 Conference.
+  Extended technical report for the EAPO-Net work submitted at MsWiM 2026.
 tags:
   - O-RAN
   - Energy Efficiency
   - Network Slicing
 featured: false
+slides: ""
 ---
 
-## Abstract
-
-Write your abstract or summary here.
+**Type:** Extended Technical Report
 
 ## Download
 
