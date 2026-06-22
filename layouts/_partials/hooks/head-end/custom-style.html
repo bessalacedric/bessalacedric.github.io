@@ -2,8 +2,14 @@
   .resume-biography .font-semibold.text-primary-600 {
     font-size: 1.25rem !important;
   }
-  h2.text-4xl, h2.text-5xl, h2.text-6xl {
-    font-size: 1.0rem !important;
+  h1.text-4xl, h1.text-5xl, h1.text-6xl {
+    font-size: 1.1rem !important;
     line-height: 1.2 !important;
+  }
+  /* Hide featured image placeholder on event cards */
+  .events-widget .card-image,
+  [data-page-kind="events"] .card img,
+  [data-page-kind="events"] .card .aspect-video {
+    display: none !important;
   }
 </style>

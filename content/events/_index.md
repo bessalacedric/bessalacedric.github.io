@@ -12,4 +12,6 @@ sections:
           - events
     design:
       view: card
----
+      show_read_more: false
+      show_read_time: false
+      show_date: true
