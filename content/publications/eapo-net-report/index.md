@@ -24,8 +24,10 @@ tags:
   - Network Slicing
 featured: false
 slides: ""
+_build:
+  render: always
+  list: always
 ---
-
 **Type:** Extended Technical Report
 
 ## Download
