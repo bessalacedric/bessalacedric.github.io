@@ -24,7 +24,7 @@ tags:
   - Network Slicing
 featured: false
 slides: ""
-_build:
+build:
   render: always
   list: always
 ---
