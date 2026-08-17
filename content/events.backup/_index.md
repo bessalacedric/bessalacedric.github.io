@@ -1,11 +1,12 @@
 ---
-title: Talks & Presentations
+title: 'Talks & Presentations'
 date: 2024-01-01
 type: landing
+
 sections:
   - block: collection
     content:
-      title: ""
+      title: ''
       filters:
         folders:
           - events
@@ -14,6 +15,4 @@ sections:
       show_read_more: false
       show_read_time: false
       show_date: true
-event_start: 2024-01-01
 ---
-
