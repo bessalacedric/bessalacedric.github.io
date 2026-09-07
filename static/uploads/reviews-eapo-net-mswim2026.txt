@@ -1,0 +1,103 @@
+======= Review 1 =======
+
+> *** Summary: Please comment briefly on the following: What are the major contributions of the paper? Do you consider them important? Comment on the degree of relevance, novelty, technical depth and presentation quality of the paper. What are the strengths and weaknesses of the paper?
+
+The paper proposes EAPO-NET, a multi-agent deep reinforcement learning framework for jointly optimizing RU sleep mode, UE admission control, RB blanking, and DU/CU placement in O-RAN with the objective of maximizing network profit while reducing energy consumption. The problem is well motivated, the system model is clearly presented, and the proposed solution is described in detail. The paper also includes a broad related work section.
+
+The main weakness of the paper is the evaluation. Although the proposed approach is compared against an ILP-based optimal solution, there is no comparison with existing state-of-the-art heuristic or learning-based approaches, making it difficult to assess the practical benefits of the proposed method over the current literature. Furthermore, despite formulating the problem as a profit maximization problem, the evaluation almost exclusively reports energy-related metrics, while the achieved profit is never presented. Since profit is the primary optimization objective, corresponding results should be included. Another important limitation is the system model itself. QoS requirements are claimed to be satisfied, yet no latency or delay constraints are included in the formulation. It is therefore unclear how QoS guarantees can be ensured in practice. Similarly, traffic dynamics are only briefly described, leaving important details about the considered traffic model unspecified. The VNF migration model is also incomplete, as the paper does not discuss what happens when services cannot be migrated or when migration is undesirable. The paper would also benefit from additional analyses. No computational complexity analysis is provided, and while inference latency is reported, there is no discussion of the algorithm's computational complexity or runtime beyond the per-slot decision time.
+
+Finally, there are several presentation issues that should be addressed. Acronyms are not defined in the abstract, the paper does not include index terms, and several acronyms (e.g., RT, RIC, UE, and EAPO) are used before or without being defined in the main text. Acronym definitions should also follow a consistent capitalization style throughout the manuscript. The introduction would benefit from a final paragraph outlining the organization of the paper. Lastly, the titles in the reference list are not capitalized when needed (I.e. for acronyms) and should be revised.
+
+> *** Originality and Impact: Assess the originality of the work and its contribution to the area of research
+Marginal contribution (2)
+
+> *** Presentation: Assess the quality of the presentation in terms of English, organization and completeness
+Some work needed (2)
+
+> *** Technical Correctness: Assess the technical correctness of the work
+Several Flaws (1)
+
+> *** Relevance: How relevant is the paper to MSWiM?
+Somewhat Relevant (3)
+
+> *** Reviewer Familiarity: Please assess your familiarity with the subject matter of the paper
+Working in this area of research (5)
+
+> *** Recommendation: What is your overall recommendation for the paper?
+Likely reject (Top 50%, but not top 30%) (2)
+
+> *** Detailed Comments: Please provide detailed comments and suggestions to the authors for improving the paper.
+
+The paper proposes EAPO-NET, a multi-agent deep reinforcement learning framework for jointly optimizing RU sleep mode, UE admission control, RB blanking, and DU/CU placement in O-RAN with the objective of maximizing network profit while reducing energy consumption. The problem is well motivated, the system model is clearly presented, and the proposed solution is described in detail. The paper also includes a broad related work section.
+
+The main weakness of the paper is the evaluation. Although the proposed approach is compared against an ILP-based optimal solution, there is no comparison with existing state-of-the-art heuristic or learning-based approaches, making it difficult to assess the practical benefits of the proposed method over the current literature. Furthermore, despite formulating the problem as a profit maximization problem, the evaluation almost exclusively reports energy-related metrics, while the achieved profit is never presented. Since profit is the primary optimization objective, corresponding results should be included. Another important limitation is the system model itself. QoS requirements are claimed to be satisfied, yet no latency or delay constraints are included in the formulation. It is therefore unclear how QoS guarantees can be ensured in practice. Similarly, traffic dynamics are only briefly described, leaving important details about the considered traffic model unspecified. The VNF migration model is also incomplete, as the paper does not discuss what happens when services cannot be migrated or when migration is undesirable. The paper would also benefit from additional analyses. No computational complexity analysis is provided, and while inference latency is reported, there is no discussion of the algorithm's computational complexity or runtime beyond the per-slot decision time.
+
+Finally, there are several presentation issues that should be addressed. Acronyms are not defined in the abstract, the paper does not include index terms, and several acronyms (e.g., RT, RIC, UE, and EAPO) are used before or without being defined in the main text. Acronym definitions should also follow a consistent capitalization style throughout the manuscript. The introduction would benefit from a final paragraph outlining the organization of the paper. Lastly, the titles in the reference list are not capitalized when needed (I.e. for acronyms) and should be revised.
+
+======= Review 2 =======
+
+> *** Summary: Please comment briefly on the following: What are the major contributions of the paper? Do you consider them important? Comment on the degree of relevance, novelty, technical depth and presentation quality of the paper. What are the strengths and weaknesses of the paper?
+
+This paper makes a solid contribution to O-RAN energy management. It formulates a joint optimization problem that simultaneously controls RU sleep/blanking, UE admission, and DU/CU VNF placement, and proposes EAPO-NET, a multi-agent deep reinforcement learning framework that aligns with the O-RAN control hierarchy. The main strength lies in the careful architectural mapping of agents to actual O-RAN components and the use of centralized training with decentralized execution (CTDE) via Value Decomposition Networks, which enables coordinated learning without online inter-agent communication. The work bridges the gap between theoretical optimization and practical O-RAN implementation, offering a deployable, scalable solution to a timely problem.
+
+> *** Originality and Impact: Assess the originality of the work and its contribution to the area of research
+Novel contribution with high potential impact (5)
+
+> *** Presentation: Assess the quality of the presentation in terms of English, organization and completeness
+Good (4)
+
+> *** Technical Correctness: Assess the technical correctness of the work
+Good (5)
+
+> *** Relevance: How relevant is the paper to MSWiM?
+Definitely Relevant (5)
+
+> *** Reviewer Familiarity: Please assess your familiarity with the subject matter of the paper
+Working in this area of research (5)
+
+> *** Recommendation: What is your overall recommendation for the paper?
+Likely accept (Top 20% but not top 10%) (4)
+
+> *** Detailed Comments: Please provide detailed comments and suggestions to the authors for improving the paper.
+
+1. In Section IV, while the problem formulation and agent decomposition are tailored to O-RAN, the learning algorithm itself introduces no new mechanisms to handle the specific challenges of this setting. The authors should explicitly discuss what adaptations were necessary beyond the off-the-shelf VDN, or propose lightweight modifications that address O-RAN-specific non-stationarities.
+2. In Section V, the performance evaluation only compares EAPO-NET against the optimal ILP solution. While this demonstrates near-optimality, it does not justify why the multi-agent VDN architecture is preferable over simpler approaches. Without such baselines, the benefits of coordination and the specific design choices remain unclear. Adding at least one baseline methods  to the evaluation would strengthen the claim that VDN-based coordination is indeed necessary and effective in this multi-agent setting.
+3. Section IV.B empirically shows convergence of rewards and losses, but provides no theoretical discussion on the convergence properties of the multi-agent Q-learning with VDN under the non-stationary environment caused by simultaneous policy updates.  A brief theoretical justification, or at least a discussion of known convergence conditions for CTDE methods, would be valuable, along with an explanation of how the specific reward design mitigates or could exacerbate non-stationarity. A sensitivity analysis on hyperparameters would also be useful for practitioners.
+
+======= Review 3 =======
+
+> *** Summary: Please comment briefly on the following: What are the major contributions of the paper? Do you consider them important? Comment on the degree of relevance, novelty, technical depth and presentation quality of the paper. What are the strengths and weaknesses of the paper?
+
+This paper constructs a joint profit-driven optimization model for O-RAN that integrates RU sleep mode, UE admission control, and DU/CU VNF placement within a single framework, offering a degree of novelty. The authors design a heterogeneous VDN-based MARL framework and map it to O-RAN xApp/dApp modules, enabling communication-free decentralized execution. Through simulations, the authors conduct comprehensive testing of the proposed framework against a B&C solver. These contributions are of practical value for O-RAN energy management and are highly relevant to MSWiM's focus areas of wireless resource management and energy efficiency. While the paper presents interesting ideas, its overall quality and readability could be further strengthened by improving the presentation, providing a more complete algorithm description, and including additional comparisons against state-of-the-art MARL methods.
+
+> *** Originality and Impact: Assess the originality of the work and its contribution to the area of research
+Has merit but mostly incremental (3)
+
+> *** Presentation: Assess the quality of the presentation in terms of English, organization and completeness
+Readable (3)
+
+> *** Technical Correctness: Assess the technical correctness of the work
+Flaws but Easy to Correct (3)
+
+> *** Relevance: How relevant is the paper to MSWiM?
+Definitely Relevant (5)
+
+> *** Reviewer Familiarity: Please assess your familiarity with the subject matter of the paper
+Familiar with this area of research (3)
+
+> *** Recommendation: What is your overall recommendation for the paper?
+Accept if room (Top 30% but not top 20%) (3)
+
+> *** Detailed Comments: Please provide detailed comments and suggestions to the authors for improving the paper.
+
+1. For better readability, it is suggested that all abbreviations be fully expanded at their first mention, and clear definitions be supplemented for each mathematical symbol when it is initially introduced.
+2. The real world is inherently dynamic, yet this aspect is not reflected in either the problem formulation or the MDP formulation. It is recommended that the authors take into account the system's dynamics, or clarify that such considerations have already been made.
+3. It is suggested that the authors justify the design rationale behind the reward function, particularly why the difference-based global reward is adopted, rather than straightforward Lagrangian function. Moreover, the Lagrangian multipliers are fixed constants or adaptively updated during training remains unclear.
+4. The paper adopts the VDN framework but does not specify the exact decomposition method for the joint Q-value. According to the loss function in this paper, the authors employ an independent multi-agent DQN algorithm, and is not consistent with the VDN framework.
+5. It is suggested that the authors compare the proposed framework with several RL baselines, such as independent DQN and Q-MIX, to validate the effectiveness of VDN, or with heuristic strategies that could demonstrate the necessity of RL.
+
+
+
+
+
+
