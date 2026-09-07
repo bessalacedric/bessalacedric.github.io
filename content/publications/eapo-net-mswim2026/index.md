@@ -5,7 +5,7 @@ authors:
   - Guilherme Iecker Ricardo
   - Gentian Jakllari
 date: '2026-11-01'
-publishDate: '2026-11-01'
+publishDate: '2026-06-20'
 publication_types: ['paper-conference']
 publication:
   name: "23rd ACM International Conference on Modeling, Analysis and Simulation of Wireless and Mobile Systems (MSWiM 2026), [City], [Country]"
@@ -31,5 +31,4 @@ slides: ""
 
 \[ [paper](/uploads/eapo-net-mswim2026.pdf) / [slides](/uploads/slides-eapo-net-mswim2026.pdf) / [reviews](/uploads/reviews-eapo-net-mswim2026.txt) \]
 
-## Abstract
 
