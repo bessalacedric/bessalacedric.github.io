@@ -289,3 +289,6 @@ hugoblox:
     # Join affiliate program: https://hugoblox.com/affiliates
     affiliate_code: ""
 profile: false
+
+# Disable author bio on individual content pages
+profile: false
