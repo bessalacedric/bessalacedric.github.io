@@ -43,8 +43,4 @@ featured: true
 slides: ""
 ---
 
-\[ [paper](https://networking.ifip.org/2025/images/Net25_papers/1571123540.pdf) / [slides](/uploads/slides-e-matro-ifip2025.pdf) / [reviews](/uploads/reviews-e-matro-ifip2025.txt) \]
-
-## Abstract
-
-The complexity of Open RAN (O-RAN) networks, driven by dynamic traffic and stringent Quality of Service (QoS) requirements, challenges traditional centralized control, leading to suboptimal resource allocation and high energy consumption. We address the problem of energy-efficient, slice-compliant Virtual Network Function (VNF) placement by formulating it as a flow-based optimization model. To solve it, we propose E-MATRO, a multi-agent reinforcement learning (MARL) framework that integrates decentralized dApps with a centralized xApp for adaptive and scalable control.
+[ [paper](https://networking.ifip.org/2025/images/Net25_papers/1571123540.pdf) / [slides](/uploads/slides-e-matro-ifip2025.pdf) / [reviews](/uploads/reviews-e-matro-ifip2025.txt) ]
