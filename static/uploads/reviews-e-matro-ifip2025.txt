@@ -1,0 +1,82 @@
+======= Review 1 =======
+
+Strong aspects: Comments to the author: what are the strong aspects of the paper
+
+The paper presents a well-structured solution to energy-efficient VNF placement in O-RAN using a hybrid MARL framework. The integration of decentralized dApps with a centralized xApp ensures both local adaptability and global coordination, making it scalable. The use of flow-based optimization formalization strengthens its theoretical foundation, while Deep Q-Learning's demonstrated adaptability in complex scenarios highlights its practical effectiveness. The experimental validation on various O-Cloud network sizes further enhances the paper’s credibility.
+Weak aspects: Comments to the author: what are the weak aspects of the paper?
+
+The paper could better address the computational complexity of MARL in large-scale deployments. While Deep Q-Learning performs well, a comparison with traditional optimization methods would provide a clearer performance benchmark. Additionally, more details on how the framework handles highly dynamic and heterogeneous environments would strengthen its real-world applicability.
+Recommended changes: Recommended changes. Please indicate any changes that should be made to the paper if accepted.
+
+To improve the paper, consider discussing MARL’s scalability in real-world deployments and comparing its performance with conventional optimization techniques. Expanding on how E-MATRO adapts to rapidly changing network conditions would enhance its practical relevance. Lastly, providing insights into future integration with edge AI and 6G in more detail would make the study’s long-term impact clearer.
+Relevance and timeliness: Rate the importance and timeliness of the topic addressed in the paper within its area of research.
+
+Good (4)
+Technical content and scientific rigour: Rate the technical content of the paper (e.g.: completeness of the analysis or simulation study, thoroughness of the treatise, accuracy of the models, etc.), its soundness and scientific rigour.
+
+Solid work of notable importance. (4)
+Novelty and originality: Rate the novelty and originality of the ideas or results presented in the paper.
+
+Significant original work and novel results. (4)
+Quality of presentation: Rate the paper organization, the clearness of text and figures, the completeness and accuracy of references.
+
+Readable, but revision is needed in some parts. (3)
+
+======= Review 2 =======
+
+Strong aspects: Comments to the author: what are the strong aspects of the paper
+
+The paper focuses on a hot topic of substantial interest for the community,
+Weak aspects: Comments to the author: what are the weak aspects of the paper?
+
+The papers contribution should be more explicitly positioned wrt other works such as [7,9,20]. The authors should shed more light on Conflict resolution e.g., investigate how frequently this is needed as a function of system parameters (topologies, workloads), what is the impact on convergence rate / solution delay. The description of the employed topologies is missing along with a discussion on the topological characteristics affecting the results e.g., what is the meaning of "more complex Abilene topology"? This is substantial for a work suggesting a distributed solution. SARSA is not described. A discussion on the tradeoff between energy consumption and load balancing is missing. The paper should discuss what exactly the limitations of centralized O-RAN are. A more detailed motivation and positioning is required for the paper,
+Recommended changes: Recommended changes. Please indicate any changes that should be made to the paper if accepted.
+
+The authors should address the weaknesses described above. Especially in what concerns the positioning and related work.
+Relevance and timeliness: Rate the importance and timeliness of the topic addressed in the paper within its area of research.
+
+Excellent (5)
+Technical content and scientific rigour: Rate the technical content of the paper (e.g.: completeness of the analysis or simulation study, thoroughness of the treatise, accuracy of the models, etc.), its soundness and scientific rigour.
+
+Solid work of notable importance. (4)
+Novelty and originality: Rate the novelty and originality of the ideas or results presented in the paper.
+
+Some interesting ideas and results on a subject well investigated. (3)
+Quality of presentation: Rate the paper organization, the clearness of text and figures, the completeness and accuracy of references.
+
+Well written. (4)
+
+======= Review 3 =======
+
+Strong aspects: Comments to the author: what are the strong aspects of the paper
+
+The paper tackles the critical issue of resource allocation and energy efficiency in O-RAN, which is highly relevant in the context of 5G and beyond 5G networks. The paper provides a clear and formal definition of the energy-efficient, slice-compliant VNF placement problem
+Weak aspects: Comments to the author: what are the weak aspects of the paper?
+
+    While the paper discusses scalability, the performance of classical Q-Learning and SARSA deteriorates in larger, more complex scenarios, raising concerns about the scalability of those specific algorithms within the framework
+    The performance of reinforcement learning algorithms can be sensitive to parameter settings (e.g., learning rate, exploration rate), and the paper could benefit from a more detailed discussion of parameter tuning.
+
+Recommended changes: Recommended changes. Please indicate any changes that should be made to the paper if accepted.
+
+minor comments
+
+    A dApp is not an ORAN alliance term? ORAN defines rApps and xApps. pLease elaborate in the abstract as this is just a research proposal not a standards term System model:
+    O-Cloud nodes operate either as a (i) Virtual Infrastructure Manager (VIM), VIM operations are management plane related functionalities, the authors mean something else here (nodes where the vDUs and vCUs are deployed, VIM has no relationship)
+    in the system model it is considered that RUs are also virtualized? this is rather not realistic
+    due to stochastics eq 8 is a rather simplified form of the model to use for the energy consumtption for VNFs
+
+Relevance and timeliness: Rate the importance and timeliness of the topic addressed in the paper within its area of research.
+
+Excellent (5)
+Technical content and scientific rigour: Rate the technical content of the paper (e.g.: completeness of the analysis or simulation study, thoroughness of the treatise, accuracy of the models, etc.), its soundness and scientific rigour.
+
+Solid work of notable importance. (4)
+Novelty and originality: Rate the novelty and originality of the ideas or results presented in the paper.
+
+Significant original work and novel results. (4)
+Quality of presentation: Rate the paper organization, the clearness of text and figures, the completeness and accuracy of references.
+
+Excellent. (5)
+
+Regards,
+IFIP Networking 2025 Chairs

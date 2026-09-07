@@ -53,3 +53,5 @@ slides: ""
 ---
 
 PDF: [networking.ifip.org/2025](https://networking.ifip.org/2025/images/Net25_papers/1571123540.pdf)
+
+[Reviewer comments](/uploads/reviews-e-matro-ifip2025.txt)
