@@ -15,13 +15,17 @@ open_access: true
 license: ''
 abstract: >
   This extended technical report describes the full work of EAPO-Net,
-  submitted at MsWiM 2026 Conference.
+  accepted at MsWiM 2026 Conference.
 summary: >
-  Extended technical report for the EAPO-Net work submitted at MsWiM 2026.
+  Extended technical report for the EAPO-Net work accepted at MsWiM 2026.
 tags:
   - O-RAN
-  - Energy Efficiency
-  - Network Slicing
+  - Energy efficiency
+  -  RU-level scheduling
+  - Admission control
+  - MARL
+  - Value Decomposition Networks (VDN)
+  - Centralized Training, Decentralized EXECUTION (CTDE)
 featured: false
 slides: ""
 build:
@@ -33,3 +37,4 @@ build:
 ## Download
 
 [View report](/uploads/EAPO_Net_TR.pdf)
+
