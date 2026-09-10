@@ -8,7 +8,7 @@ date: '2026-11-01'
 publishDate: '2026-06-20'
 publication_types: ['paper-conference']
 publication:
-  name: "23rd ACM International Conference on Modeling, Analysis and Simulation of Wireless and Mobile Systems (MSWiM 2026), [City], [Country]"
+  name: "23rd ACM International Conference on Modeling, Analysis and Simulation of Wireless and Mobile Systems (MSWiM 2026), Paris, France, October 26th – 30th."
   short_name: "MSWiM 2026"
 peer_reviewed: true
 open_access: false
