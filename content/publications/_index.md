@@ -1,4 +1,4 @@
 ---
-title: 'Publications and Reports'
+title: 'Publications'
 view: citation
 ---

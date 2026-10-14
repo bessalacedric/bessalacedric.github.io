@@ -15,7 +15,7 @@ sections:
       headings:
         about: 'Biography'
         education: ''
-        interests: 'Research'
+        interests: 'Research and interests'
     design:
       background:
         gradient_mesh:

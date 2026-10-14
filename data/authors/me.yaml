@@ -10,7 +10,7 @@ name:
   pronouns: ''
 postnominals: []
 status:
-  icon: "📡"
+  icon: ""
 role: PhD Researcher in Computer Networks
 bio: |
   I am a Ph.D. candidate at Toulouse INP/University of Toulouse and a member of the IRIT laboratory. My research interests span decision theory, optimization, and intelligent network management, with a focus on developing rigorous mathematical models to address real-world challenges.
@@ -42,7 +42,7 @@ links:
 
 interests:
   - Internet architectures and protocols, including programmable and resilient networks;
-  - network optimization and resource management, e.g., O-RAN, Open 5G/6G, and Cloud-Native Network Architectures;
+  - network optimization and resource management, e.g., O-RAN, Open 5G/6G, and cloud-native network architectures;
   - sustainable sensing and communication systems;
   - secure, privacy-preserving, and trustworthy networked infrastructures;
   - edge, networked, and physical AI; 
@@ -79,6 +79,8 @@ experience:
       - Network Security (iptables, NAT, DHCP)
       - Infrastructure of Cloud Computing and Big Data Infrastructure
       - Android Application Development (IoT and wearables)
+      - Metaprogrammation and Tests
+      - Internet, SDN & VNF
 
 skills:
   - name: Research & Engineering
@@ -100,4 +102,4 @@ skills:
 
 languages: [ { name: French, level: 5, label: Fluent }, { name: English, level: 5, label: Fluent } ]  # EDIT: add if you'd like, e.g. { name: French, level: 5, label: Native }
 
-#awards: []  # EDIT: add any awards/honors here
+
