@@ -41,15 +41,13 @@ links:
     url: "https://orcid.org/0009-0000-8881-6052"  # EDIT
 
 interests:
-  - O-RAN, Open 5G/6G, and Cloud-Native Network Architectures
-  - Operational Research for Communication Networks
-  - Mathematical Modeling and Optimization of Networked Systems
-  - Online and Multi-Agent Reinforcement Learning for Autonomous Network Management
-  - Intent-Based Networking and AI-Driven Automation
-  - Sustainable and Green Networking
-  - Large-Scale Experimental Validation using Advanced Research Infrastructures (e.g., SLICES-RI, Colosseum)
-  - Network Emulation, Digital Twins, and Real-World Testbed Deployment
-
+  - Internet architectures and protocols, including programmable and resilient networks;
+  - network optimization and resource management, e.g., O-RAN, Open 5G/6G, and Cloud-Native Network Architectures;
+  - sustainable sensing and communication systems;
+  - secure, privacy-preserving, and trustworthy networked infrastructures;
+  - edge, networked, and physical AI; 
+  - large-scale experimental validation using advanced research infrastructures (e.g., Slices-RI, Colosseum platforms).
+  
 education:
   - degree: "PhD in Computer Science and Telecommunications"  # EDIT
     institution: "[University of Toulouse]"  # EDIT
