@@ -13,9 +13,10 @@ status:
   icon: ""
 role: Computer networking researcher
 bio: |
-  I am a Ph.D. candidate at Toulouse INP/University of Toulouse and a member of the IRIT laboratory. My research interests span decision theory, optimization, and intelligent network management, with a focus on developing rigorous mathematical models to address real-world challenges.
+  I am a Ph.D. candidate at Toulouse INP/University of Toulouse and a member of the IRIT laboratory. 
 
-  My doctoral research focuses on adaptive, data-driven orchestration for energy-efficient 5G Open Radio Access Networks (O-RAN). Through this work, I investigate innovative approaches to improve network efficiency, flexibility, and sustainability in highly dynamic environments.
+  My thesis focuses on network optimization and online decision-making for 5G and NextG networks. I investigate new design and optimization principles for NextG RANs, emphasizing more intelligent, adaptive, and efficient network operation. My work covers broad areas such as network function chaining and compute resource allocation, disaggregated RAN architectures, and online decision-making techniques for improving network energy efficiency.
+
 
   A central focus of my research is Intent-Based Networking, where I harness AI and advanced machine learning techniques to automate and enhance network management. I believe that, using the right AI/ML model, in the right place to solve the right problem, is more crucial than ever, and that's something that I bring with my domain expertise. I am particularly interested in Reinforcement Learning (RL) methods, which facilitate decision-making under uncertainty. These methods enable the development of adaptive strategies that ensure network performance and reliability, even in the face of fluctuating traffic demands and limited data availability.
   
